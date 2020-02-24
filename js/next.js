@@ -16,8 +16,8 @@ $(document).ready(function() {
 	let termHistory = []; // work with this
 
 	// Text Options
-	let wakeUp = "Wake up, Neo...",
-	knock = "Knock, knock, Neo...",
+	let wakeUp = "This is Sean Chen's Website",
+	knock = "contact: sean@foringblock.io",
 	about = 'My name is Sean Chen, and I am an Multi - Discipline Engineer and Entrepreneur',
 	writeCode = "I write code",
 	learnMore = "Learn more",
