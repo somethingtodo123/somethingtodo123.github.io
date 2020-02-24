@@ -81,17 +81,11 @@ $(document).ready(function() {
 			'target': '_blank'
 		});
 
-		let codewarsLink = $('<a>Codewars</a>').attr({
-			'href': 'http://www.codewars.com/users/Kallaway',
-			'target': '_blank'
-		});
-
 		let linkedinLink = $('<a>LinkedIn</a>').attr({
 			'href': 'www.linkedin.com/in/sean-chen-viper',
 			'target': '_blank'
 		})
 
-		//codewars.append(codewarsLink);
 		//github.append(githubLink);
 		linkedin.append(linkedinLink);
 		twitter.append(twitterLink);
@@ -100,7 +94,6 @@ $(document).ready(function() {
 		console.log("$$$ Github element is currently: ");
 		console.log(github);
 
-		//contact.append(codewars);
 		//contact.append(github);
 		contact.append(linkedin);
 		contact.append(twitter);
@@ -258,7 +251,7 @@ $(document).ready(function() {
 
 		// improve this code
 		setTimeout(function() {
-			let wakeupEl = addToTerminal(wakeUp,  typeSpeedSlow, true);
+			let wakeupEl = addToTerminal(wakeUp,  typeSpeedFast, true);
 		}, 200);
 
 		setTimeout(function() {
